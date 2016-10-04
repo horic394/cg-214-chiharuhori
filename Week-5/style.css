@@ -1,0 +1,17 @@
+body{
+    background-color:aliceblue;
+}
+h1{
+    font-family: sans-serif;
+    color:darkblue
+}
+
+h2{
+   font-family: sans-serif;
+   color:cadetblue
+}
+
+p{
+    font-family: serif;
+    color:darkslateblue
+}
