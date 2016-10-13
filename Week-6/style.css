@@ -1,0 +1,18 @@
+body{
+    background-color: #fff883;
+}
+h1{
+    font-family: Times, Gill Sans;
+    color:darkblue
+}
+h2{
+    font-family: Times;
+    color:darkblue
+}
+
+p{
+    font-family: Helvetica;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color:darkslateblue
+}
