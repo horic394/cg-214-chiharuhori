@@ -1,0 +1,135 @@
+/*menu starts here*/
+body {
+    background-color: white;
+}
+
+/*contents starts from here*/
+h2 {
+    float: left;
+    margin-top: 100px;
+    margin-left: 75px;
+    width: 100%;
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 70px;
+}
+
+h3 {
+    float: left;
+    margin-left: 75px;
+    margin-top: -60px;
+    width: 100%;
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+
+.japanContent{
+   width: 1024px;
+   margin: 0 auto;
+}
+.japanContent:after{
+  visibility: hidden;
+  content: '';
+  height: 0;
+  display: block;
+  clear: both;
+}
+.japan1Description{
+  float: left;
+  margin-bottom: 10px;
+}
+
+.japan1Description p{
+    margin-bottom: 30px;
+    text-align: left;
+    min-width: 400px;
+    max-width: 600px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.japan2Description{
+  float: right;
+}
+.japan2Description p{
+    margin-bottom: 50px;
+    min-width: 100px;
+    max-width: 350px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+/*here starts subscribe*/
+footer{
+  background-color: black;
+  padding: 80px;
+  margin-top: 100px;
+}
+
+h6 {
+    width: 100%;
+    margin: 0;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+form{
+    list-style: none;
+    position: relative;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+form input{
+    width: 160px;
+    height: 32px;
+    font-size: 18px;
+}
+
+form ul{
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+form li{
+    margin: 5px;
+}
+
+form ul li{float:left}
+form ul:after {
+    visibility: hidden;
+    height: 0;
+    content: "";
+    clear: both;
+    display: block;
+}
+label{
+    margin-right: 5px;
+}
+#button {
+    height: 32px;
+    margin-left: 70px;
+    margin-top: 5px;
+    width: 168px;
+    padding: 4px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 2px 2px 0 0 rgba(255,255,255,0.2);
+    font-size: 18px;
+}
