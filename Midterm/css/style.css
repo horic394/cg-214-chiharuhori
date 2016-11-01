@@ -1,0 +1,185 @@
+/*Here is menu*/
+
+body {
+    background-color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+
+#largemap {
+}
+
+#topMap{
+  padding: 24px 0;
+}
+
+/*contents start from here*/
+
+#content{
+  position: relative;
+  top: 72px;
+}
+
+h2 {
+    margin: 0;
+    width: 100%;
+    font-size: 60px;
+    font-weight: strong;
+}
+
+h3 {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.topContent{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.topContent:after{
+  visibility: hidden;
+  content: '';
+  height: 0;
+  display: block;
+  clear: both;
+}
+
+.topDescription{
+  float: left;
+}
+
+.topDescription p {
+    margin-bottom: 10px;
+    text-align: left;
+    min-width: 400px;
+    max-width: 625px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.topArticles{
+  float: right;
+}
+
+h4 {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 2;
+    font-style: italic;
+}
+
+#newarticles {
+}
+
+.articleDescription {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 100;
+    font-style: regular;
+}
+
+#newarticles2 {
+}
+
+#text2 {
+    font-size: 14px;
+    font-weight: 100;
+    font-style: regular;
+}
+
+#newarticles3 {
+}
+
+#text3 {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    font-style: regular;
+}
+
+h5 {
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 2;
+    font-style: italic;
+}
+
+#about {
+    width: 100%;
+}
+
+
+/*here starts subscribe*/
+footer{
+  background-color: black;
+  padding: 80px;
+  margin-top: 100px;
+}
+
+h6 {
+    width: 100%;
+    margin: 0;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+form{
+    list-style: none;
+    position: relative;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+form input{
+    width: 160px;
+    height: 32px;
+    font-size: 18px;
+}
+
+form ul{
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+form li{
+    margin: 5px;
+}
+
+form ul li{float:left}
+form ul:after {
+    visibility: hidden;
+    height: 0;
+    content: "";
+    clear: both;
+    display: block;
+}
+label{
+    margin-right: 5px;
+}
+#button {
+    height: 32px;
+    margin-left: 70px;
+    margin-top: 5px;
+    width: 168px;
+    padding: 4px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 2px 2px 0 0 rgba(255,255,255,0.2);
+    font-size: 18px;
+}
