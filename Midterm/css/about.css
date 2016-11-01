@@ -1,0 +1,52 @@
+/*menu starts from here*/
+
+body {
+    background-color: white;
+}
+
+
+
+/*contents start from here*/
+
+h2 {
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    width: 100%;
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+.aboutContent{
+   width: 1024px;
+   margin: 0 auto;
+   margin-bottom: 30px;
+}
+.aboutContent:after{
+  visibility: hidden;
+  content: '';
+  height: 0;
+  display: block;
+  clear: both;
+}
+
+.aboutDescription{
+    float: right;
+    margin-top: 238px;
+}
+
+.aboutDescription p {
+    margin-top: 30px;
+    min-width: 350px;
+    max-width: 600px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#pic {
+   float: left;
+   margin-top: 270px;
+   margin-left: 100px;
+ }
