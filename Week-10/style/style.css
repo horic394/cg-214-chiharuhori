@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    background-color: whitesmoke;
+}
+header{
+    background-color: white;
+    height: 100px;
+    position: fixed;
+    z-index: 100;
+    
+    margin-top: -110px;
+    width: 100%;
+}
+
+
+#logo{
+     margin-top: 20px;
+     margin-left: 20px;
+}
+#search{
+     margin-top: -40px;
+}
+#nav ul{ 
+    float: right;
+    right: auto;
+    margin-top: -25px;
+    
+
+}
+#nav li{
+   list-style-type: none;
+   display: inline;
+    margin: 5px;
+    
+   float: right;
+   margin-right: 20px;
+}
+
+.content{
+    margin-top: 110px;
+    margin-left: 50px;
+}
+#personal{
+    margin-top: -200px;
+    margin-left: 550px;
+    margin-bottom: 150px;
+}
+#personal li{
+    list-style-type: none;
+    display: inline;
+    margin: 40px;
+    
+    margin-left: -40px;
+}
+#plogo{
+    margin-top: 5px;
+    margin-left: 240px;
+    
+}
+ 
+.container_12{
+    margin-top: px;
+    max-width: 1024px;
+    min-width: 600px;
+    margin-bottom: 10px;
+}
