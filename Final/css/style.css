@@ -1,0 +1,60 @@
+body {
+    background: #fff;
+    font-family: courier, gill sans, sans-serif;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    position: fixed;
+    top: 0%;
+    left: 10%;
+    
+    color: white;
+    font-size: 200px;
+}
+
+h2 {
+    position: fixed;
+    top: 15%;
+    left: 10%;
+  
+    color: white;
+    font-size: 200px;
+}
+
+h3 {
+    position: fixed;
+    top: 60%;
+    left: 10%;
+    
+    color: white;
+    font-size: 60px;
+}
+
+#sns {
+    position: fixed;
+    top: 90%;
+    right: 1%;
+    display: inline;
+}
+#twitter{
+    margin: 2px;
+}
+#facebook{
+    margin: 2px;
+}
+#instagram{
+    margin: 2px;
+}

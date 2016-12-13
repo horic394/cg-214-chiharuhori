@@ -1,0 +1,90 @@
+/*navigation is here*/
+body{margin:0}
+.nav {
+     z-index: 100;
+     position: fixed;
+     top: 2%;
+     right: 20%;
+    
+     font-family:courier, gill sans, sans-serif;
+     font-size: 24px;
+ }
+
+ul {
+    padding: 2%;
+    margin-left: 0%;
+}
+li {
+    display: inline;
+    margin-right: 4%;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+li:hover {}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: left;
+}
+.dropdown-content a {
+    color: white;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content{display:block; width:260px}
+/*slider is here*/
+#slides {
+    position: absolute;
+    width: 100%;
+    padding: 0px;
+    top: 10%;
+    list-style-type: none;
+}
+
+#slides img{
+    width: 100%;
+}
+/*each slide not showing has opacity of 0 and z-index of 1*/
+
+body{margin:0}
+.slide {
+    position: absolute;
+    left: 0px;
+    top: -50px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 1s;
+}
+
+/*the slide showing has opactiy of 1 and z-index of 2*/
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+
+#sns2 {
+    z-index: 100;
+    position: fixed;
+    width: 15%;
+    top: 3%;
+    right: 2%;
+    display: inline;
+}
+#twitter{
+    margin: 4px;
+}
+#facebook{
+    margin: 4px;
+}
+#instagram{
+    margin: 4px;
+}
